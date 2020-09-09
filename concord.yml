@@ -9,14 +9,14 @@ configuration:
 flows:
   defult: 
   - log: "Holy Crap! This actually worked!"
-#  - form: userInformation
-#  - log: "Hello, ${userInformation.Name}"
+  - form: userInformation
+  - log: "Hello, ${userInformation.Name}"
   main:
   - log: "This is the Main Branch."
   - ${10 + 20}
 #  - out: myVar
 #  - log: "The Sum is ${myVar}"
 
-#forms:
-#  userInformation:
-#  - Name: { lable: "Enter Full Name below:" , type: "string" }  
+forms:
+  userInformation:
+  - Name: { lable: "Enter Full Name below:" , type: "string" }  
