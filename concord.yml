@@ -13,7 +13,7 @@ flows:
 #  - log: "Hello, ${userInformation.Name}"
   main:
   - log: "This is the Main Branch."
-  - expr: ${10 + 20}
+  - ${10 + 20}
   - out: myVar
   - log: "The Sum is ${myVar}"
 
