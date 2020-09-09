@@ -14,8 +14,8 @@ flows:
   main:
   - log: "This is the Main Branch."
   - ${10 + 20}
-  - out: myVar
-  - log: "The Sum is ${myVar}"
+#  - out: myVar
+#  - log: "The Sum is ${myVar}"
 
 #forms:
 #  userInformation:
