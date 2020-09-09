@@ -1,4 +1,9 @@
+configuration:
+  entryPoint: main
+
 flows:
   defult: 
-  - log: "Holy Crap! Thia actually worked! "
+  - log: "Holy Crap! This actually worked!"
 
+  main:
+  - log: "This is the Main Branch."
