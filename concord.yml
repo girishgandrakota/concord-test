@@ -1,5 +1,5 @@
-configuration:
-  entryPoint: main
+#configuration:
+#  entryPoint: main
 
   arguments:
     name: VariableValues
